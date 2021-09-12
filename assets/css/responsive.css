@@ -8,9 +8,6 @@
   .csnb_btn{
     overflow: scroll;
   }
-  .wc2022{
-    font-size: 12px;
-  }
 }
 
 @media (min-width: 576px) {
