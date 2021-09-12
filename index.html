@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- button go to top -->
+    <a id="to_top" href="#">
+        <i class="fas fa-arrow-up text-white"></i>
+    </a>
+
+    <!-- Banner top -->
+    <div class="bannertop d-none d-md-block">
+        <a href="#">
+            <img src="./assets/images/bannertopnew.PNG" alt="img">
+        </a>
+    </div>
+    <div class="bannertop_mobile d-block d-md-none">
+        <a href="#">
+            <img src="./assets/images/bannertop-mobile.PNG" alt="img">
+        </a>
+    </div>
+    <!-- Header -->
+    <div class="container-xl">
+        <header class="header row">
+            <div class="header_left pl-3">
+                <a class="header_logoVNE mr-2" href="#">
+                    <img src="https://s1.vnecdn.net/vnexpress/restruct/i/v403/v2_2019/pc/graphics/logo.svg" alt="logo">
+                </a>
+                <span class="header_time pl-2 d-none d-md-inline-block">
+                    Thứ ba, 7/9/2021
+                </span>
+            </div>
+            <div class="header_right row m-0 pr-3 pl-3">
+                <a class="button mr-2" href="#">
+                    <i class="far fa-clock"></i>
+                    Mới nhất
+                </a>
+                <a class="international_btn button mr-2 d-flex" href="#">
+                    <i class="logoVNE mr-1"></i>
+                    International
+                </a>
+                <div class="gach_dung mr-2"></div>
+                <div class="header_search mr-2 d-none d-lg-inline-block">
+                    <input class="search_iput" type="text" placeholder="Tìm kiếm">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="user mr-1">
+                    <img src="./assets/images/avatar.jpg" alt="">
+                    Giap Nguyen
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <button class="notification">
+                    <i class="fas fa-bell"></i>
+                </button>
+            </div>
+
+        </header>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar_section d-none d-lg-block">
+        <ul class="navbar row">
+            <li class="home">
+                <a href="https://vnexpress.net/">
+                    <i class="fas fa-home-lg-alt"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://vnexpress.net/thoi-su">Thời sự</a>
+                <ul class="sub_nav">
+                    <li>Chính trị</li>
+                    <li>Đại hội</li>
+                    <li>Giao thông</li>
+                    <li>Mekong</li>
+                    <li>Dân sinh</li>
+                    <li>Quỹ hi vọng</li>
+                </ul>
+            </li>
+            <li>
+                <a href="https://vnexpress.net/goc-nhin">Góc nhìn</a>
+                <ul class="sub_nav">
+                    <li>Covid 19</li>
+                    <li>Chính trị</li>
+                    <li>Y tế</li>
+                    <li>Kinh doanh</li>
+                </ul>
+            </li>
+            <li>
+                <a href="https://vnexpress.net/the-gioi">Thế giới</a>
+                <ul class="sub_nav">
+                    <li>Tư liệu</li>
+                    <li>Phân tích</li>
+                    <li>Người Việt</li>
+                    <li>Cuộc sống</li>
+                </ul>
+            </li>
+            <li>
+                <a href="https://video.vnexpress.net/">Video</a>
+                <ul class="sub_nav">
+                    <li>Thời sự</li>
+                    <li>Nhịp sống</li>
+                    <li>Sport Life</li>
+                    <li>Food</li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Kinh doanh</a>
+                <ul class="sub_nav">
+                    <li>Quốc tế</li>
+                    <li>Doanh nghiệp</li>
+                    <li>Chứng khoán</li>
+                    <li>Bất động sản</li>
+                    <li>Ebank</li>
+                    <li>Vĩ mô</li>
+                    <li>Tiền của tôi</li>
+                    <li>Bảo hiểm</li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Khoa học</a>
+                <ul class="sub_nav">
+                    <li>Tin tức</li>
+                    <li>Phát minh</li>
+                    <li>Ứng dụng</li>
+                    <li>Thế giới tự nhiên</li>
+                </ul>
+            </li>
+            <li><a href="https://vnexpress.net/giai-tri">Giải trí</a></li>
+            <li><a href="https://vnexpress.net/the-thao">Thể thao</a></li>
+            <li><a href="https://vnexpress.net/phap-luat">Pháp luật</a></li>
+            <li><a href="https://vnexpress.net/giao-duc">Giáo dục</a></li>
+            <li><a href="https://vnexpress.net/suc-khoe">Sức khỏe</a></li>
+            <li><a href="https://vnexpress.net/doi-song">Đời sống</a></li>
+            <li><a href="https://vnexpress.net/du-lich">Du lịch</a></li>
+            <li class="d-none d-xl-block">
+                <a href="https://vnexpress.net/so-hoa">Số hóa</a>
+                <ul class="sub_nav">
+                    <li>Công nghệ</li>
+                    <li>Sản phẩm</li>
+                    <li>Diễn đàn</li>
+                    <li>CTO submit 2021</li>
+                </ul>
+            </li>
+            <li class="d-none d-xl-block">
+                <a href="https://vnexpress.net/oto-xe-may">Xe</a>
+                <ul class="sub_nav">
+                    <li>Thị trường</li>
+                    <li>Tư vấn</li>
+                    <li>Diễn đàn</li>
+                    <li>Đánh giá</li>
+                    <li>Video</li>
+                    <li>Bảng giá ô tô</li>
+                    <li>Xe điện</li>
+                    <li>Cẩm nang mua xe</li>
+                    <li>Thi bằng lái</li>
+                    <li>Mua bán</li>
+                </ul>
+            </li>
+            <li class="d-none d-xl-block">
+                <a href="https://vnexpress.net/y-kien">Ý kiến</a>
+                <ul class="sub_nav">
+                    <li>Thời sự</li>
+                    <li>Đời sống</li>
+                </ul>
+            </li>
+            <li class="d-none d-xl-block">
+                <a href="https://vnexpress.net/tam-su">Tâm sự</a>
+                <ul class="sub_nav">
+                    <li>Chuyên gia gỡ rối</li>
+                    <li>Chuyện hẹn hò</li>
+                </ul>
+            </li>
+            <li class="d-none d-xl-block">
+                <a href="https://vnexpress.net/hai">Hài</a>
+                <ul class="sub_nav">
+                    <li>Cười</li>
+                    <li>Đố vui</li>
+                    <li>Chuyện lạ</li>
+                    <li>Thú cưng</li>
+                </ul>
+            </li>
+            <li>
+                <button class="menu_all">
+                    <span class="menu_all_name mr-2">Tất cả</span>
+                    <i class="fas fa-bars"></i>
+                </button>
+            </li>
+        </ul>
+        <!-- modal menu all pc -->
+        <div class="modal_menu_pc">
+            <div class="container">
+                <div class="menupc_header row justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <h5 class="m-0">Tất cả chuyên mục</h5>
+                    </div>
+                    <button class="btn modal_menu_pc_close text-primary">
+                        Đóng
+                        <i class="fas fa-times pl-2 text-primary"></i>
+                    </button>
+                </div>
+                <div class="row pt-2">
+                    <div class="row col-10">
+                        <ul class="list_menupc col-lg-2 p-0 pb-3">
+                            <li>Thời sự</li>
+                            <li>Chính trị</li>
+                            <li>Đại hội XIII</li>
+                            <li>Giao thông</li>
+                            <li>Mekong</li>
+                            <li class="menu_more">Xem thêm</li>
+                        </ul>
+                        <ul class="list_menupc col-lg-2 p-0 pb-3">
+                            <li>Góc nhìn</li>
+                            <li>Covid 19</li>
+                            <li>Chính trị & chính sách</li>
+                            <li>Y tế & sức khỏe</li>
+                            <li>Kinh doanh & quản trị</li>
+                            <li class="menu_more">Xem thêm</li>
+                        </ul>
+                        <ul class="list_menupc col-lg-2 p-0 pb-3">
+                            <li>Thế giới</li>
+                            <li>Tư liệu</li>
+                            <li>Phân tích</li>
+                            <li>Người Việt năm châu</li>
+                            <li>Cuộc sống đó đây</li>
+                            <li class="menu_more">Xem thêm</li>
+                        </ul>
+                        <ul class="list_menupc col-lg-2 p-0 pb-3">
+                            <li>Video</li>
+                            <li>Thời sự</li>
+                            <li>Nhịp sống</li>
+                            <li>Sport Life</li>
+                            <li>Food</li>
+                            <li class="menu_more">Xem thêm</li>
+                        </ul>
+                        <ul class="list_menupc col-lg-2 p-0 pb-3">
+                            <li>Kinh doanh</li>
+                            <li>Quốc tế</li>
+                            <li>Doanh nghiệp</li>
+                            <li>Chứng khoán</li>
+                            <li>Bất động sản</li>
+                            <li class="menu_more">Xem thêm</li>
+                        </ul>
+                        <ul class="list_menupc col-lg-2 p-0 pb-3">
+                            <li>Khoa học</li>
+                            <li>Tin tức</li>
+                            <li>Phát minh</li>
+                            <li>ứng dụng</li>
+                            <li>Thế giới tự nhiên</li>
+                            <li class="menu_more">Xem thêm</li>
+                        </ul>
+                        <ul class="list_menupc col-lg-2 p-0 pb-3">
+                            <li>Giải trí</li>
+                            <li>Giới sao</li>
+                            <li>Video</li>
+                            <li>Phim</li>
+                            <li>Nhạc</li>
+                            <li class="menu_more">Xem thêm</li>
+                        </ul>
+                        <ul class="list_menupc col-lg-2 p-0 pb-3">
+                            <li>Thể thao</li>
+                            <li>Video</li>
+                            <li>Bóng đá</li>
+                            <li>Lịch thi đấu</li>
+                            <li>V-league</li>
+                            <li class="menu_more">Xem thêm</li>
+                        </ul>
+                        <ul class="list_menupc col-lg-2 p-0 pb-3">
+                            <li>Pháp luật</li>
+                            <li>Hồ sơ phá án</li>
+                            <li>Tư vấn</li>
+                        </ul>
+                        <ul class="list_menupc col-lg-2 p-0 pb-3">
+                            <li>Giáo dục</li>
+                            <li>Tuyển sinh</li>
+                            <li>Điểm thi</li>
+                            <li>Điểm thi</li>
+                            <li>Du học</li>
+                            <li class="menu_more">Xem thêm</li>
+                        </ul>
+                        <ul class="list_menupc col-lg-2 p-0 pb-3">
+                            <li>Sức khỏe</li>
+                            <li>Tin tức</li>
+                            <li>Tư vấn</li>
+                            <li>Dinh dưỡng</li>
+                            <li>Khỏe đẹp</li>
+                            <li class="menu_more">Xem thêm</li>
+                        </ul>
+                        <ul class="list_menupc col-lg-2 p-0 pb-3">
+                            <li>Đời sống</li>
+                            <li>Tổ ấm</li>
+                            <li>Bài học sống</li>
+                            <li>Nhà</li>
+                            <li>Tiêu dùng</li>
+                            <li class="menu_more">Xem thêm</li>
+                        </ul>
+                        <ul class="list_menupc col-lg-2 p-0 pb-3">
+                            <li>Du lịch</li>
+                            <li>Điểm đến</li>
+                            <li>Dấu chân</li>
+                            <li>Tư vấn </li>
+                            <li>Safe Go</li>
+                            <li class="menu_more">Xem thêm</li>
+                        </ul>
+                        <ul class="list_menupc col-lg-2 p-0 pb-3">
+                            <li>Số hóa</li>
+                            <li>Công nghệ</li>
+                            <li>Sản phẩm</li>
+                            <li>Diễn đàn</li>
+                            <li>Sản Phẩm Tôi Yêu</li>
+                        </ul>
+                        <ul class="list_menupc col-lg-2 p-0 pb-3">
+                            <li>Xe</li>
+                            <li>Thị trường</li>
+                            <li>Tư vấn</li>
+                            <li>Diễn đàn</li>
+                            <li>Đánh giá</li>
+                            <li class="menu_more">Xem thêm</li>
+                        </ul>
+                        <ul class="list_menupc col-lg-2 p-0 pb-3">
+                            <li>Ý kiến</li>
+                            <li>Thời sự</li>
+                            <li>Đời sống</li>
+                        </ul>
+                        <ul class="list_menupc col-lg-2 p-0 pb-3">
+                            <li>Tâm sự</li>
+                            <li>Chuyên gia gỡ rối</li>
+                            <li>Hẹn hò</li>
+                        </ul>
+                        <ul class="list_menupc col-lg-2 p-0 pb-3">
+                            <li>Hài</li>
+                            <li>Cười</li>
+                            <li>Đố vui</li>
+                            <li>Chuyện lạ</li>
+                            <li>Thú cưng</li>
+                            <li class="menu_more">Xem thêm</li>
+                        </ul>
+                    </div>
+                    <div class="menupc_right col-2">
+                        <ul class="font-weight-bold pt-0">
+                            <li>Nghe podcast</li>
+                            <li>Ảnh</li>
+                            <li>Infographics</li>
+                        </ul>
+                        <ul class="font-weight-bold">
+                            <li>Mới nhất</li>
+                            <li>Xem nhiều</li>
+                            <li>Tin nóng</li>
+                        </ul>
+                        <ul>
+                            <li>Rao vặt</li>
+                            <li>Shop VnExpress</li>
+                            <li>Startup</li>
+                            <li>Mua ảnh VnExpress</li>
+                            <li>Vhome</li>
+                            <li>eBox</li>
+                        </ul>
+                        <ul>
+                            <li>Liên hệ</li>
+                            <li>
+                                <i class="fas fa-envelope mr-1"></i>
+                                <a href="#">Tòa soạn</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-ad mr-1"></i>
+                                <a href="#"> Quảng cáo </a>
+                            </li>
+                        </ul>
+                        <ul class="pb-0 border-bottom-0">
+                            <li>Tải ứng dụng</li>
+                            <li> <a class="international_btn button mr-2 d-flex" href="#">
+                                    <i class="logoVNE mr-1"></i>
+                                    VnExpress
+                                </a> </li>
+                            <li> <a class="international_btn button mr-2 d-flex" href="#">
+                                    <i class="logoVNE mr-1"></i>
+                                    International
+                                </a> </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <div class="container-xl">
+        <!-- top story -->
+        <div class="top_story_section row section">
+            <div class="top_story col">
+                <!-- top news -->
+                <div class="top_news row m-md-0">
+                    <div class="top_news_img col-md-8 p-md-0">
+                        <a href="#">
+                            <img src="https://i1-thethao.vnecdn.net/2021/09/07/Settop-jpeg_1630972398.jpg?w=680&h=408&q=100&dpr=1&fit=crop&s=WvSEkYYkSL35CRq-6ilz-g"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="top_news_content col-md-4 pt-3">
+                        <a href="#">
+                            <h5>
+                                Tương quan trước trận Việt Nam - Australia
+                            </h5>
+                        </a>
+                        <p>
+                            Việt Nam làm nên kì tích khi góp mặt ở giai đoạn cuối vòng loại World Cup 2022 khu vực châu
+                            Á, nhưng Australia vượt trội về phong độ trong cùng thời gian.
+                        </p>
+                        <div>
+                            <i class="fas fa-comment-alt"></i>
+                            <span>14</span>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- sub news -->
+                <div class="sub_news row mt-3">
+                    <div class="col-12 col-sm-4">
+                        <h6> Lĩnh vực công tác của Thủ tướng, 4 Phó thủ tướng </h6>
+                        <p>
+                            Quyết định phân công lĩnh vực công tác của Thủ tướng Phạm Minh Chính và 4 Phó thủ tướng được
+                            ban hành ngày 6/9.
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <h6> Ấn Độ đối phó đợt bùng phát virus Nipah </h6>
+                        <p>
+                            Giới chức bang Kerala miền nam Ấn Độ đang gấp rút kiểm soát đợt lây lan virus Nipah, loại
+                            virus khiến 75% ca nhiễm tử vong.
+                        </p>
+                    </div>
+                    <div class="goc_nhin col-12 col-sm-4">
+                        <span class="goc_nhin_title">Góc nhìn</span>
+                        <h6>Di chuyển xanh</h6>
+                        <p>
+                            Di chuyển xanh gồm ba cấu phần: người xanh, phương tiện xanh và quy trình xanh.
+                        </p>
+                        <div class="author d-flex">
+                            <div>
+                                <div>Vũ Tú Thành</div>
+                                <i class="fas fa-comment-alt mt-2"></i>
+                                <span>14</span>
+                            </div>
+                            <div class="author_img">
+                                <img src="https://i1-vnexpress.vnecdn.net/2021/09/06/Thanhheadshotremovebgpreview2png-1630936768.png?w=100&h=100&q=100&dpr=1&fit=crop&s=54kfRPd14BzCFi48v_c3lA"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top_story_banner d-none d-lg-block pr-3">
+                <img src="./assets/images/banner-right.PNG" alt="">
+            </div>
+        </div>
+        <!-- end top story -->
+
+        <!-- main news -->
+        <div class="main_news section row border-bottom">
+            <div class="main_news_left col-12 col-sm-6 col-lg-4-5">
+                <div class="wc2022 p-2 mb-2">
+                    <div>
+                        Vòng loại World Cup 2022
+                    </div>
+                    <div class="d-flex">
+                        <span>Hôm nay, 19:00</span>
+                        <div class="gach_dung mr-1 ml-1"></div>
+                        Việt Nam
+                        <div class="flag_vn ml-1 mr-1">
+                            <img src="./assets/images/flag_VN.png" alt="">
+                        </div>
+                        -
+                        <div class="flag_uas ml-1 mr-1">
+                            <img src="./assets/images/Flag_of_Australia.png" alt="">
+                        </div>
+                        Australia
+                    </div>
+                </div>
+                <div>
+                    <h6>Thêm 34 người Hà Nội, 20 Nghệ An nghi Covid-19</h6>
+                    <p>
+                        Sở Y tế Hà Nội ghi nhận 29 ca dương tính nCoV từ 6h-12h ngày 7/9, nâng tổng số ca ghi nhận trong
+                        ngày lên 34. Nghệ An thêm 20 ca, Quảng Bình 91 ca.
+                    </p>
+                </div>
+                <div class="pb-3">
+                    <h6>Biến chủng Mu xuất hiện trên toàn nước Mỹ</h6>
+                    <div class="row m-0">
+                        <div class="col-md-5 p-0 pt-2">
+                            <img src="https://i1-thethao.vnecdn.net/2021/09/07/z2743127572209dc5586b45afb2ca2-8041-1314-1631019175.jpg?w=220&h=132&q=100&dpr=1&fit=crop&s=5uK3uqIM40VHMyhmZNkmlg"
+                                alt="">
+                        </div>
+                        <div class="col-md-7">
+                            HÀ NỘI - Ông Dương Văn Hiền cho rằng trọng tài có thể cho Việt Nam hưởng phạt đền khi cầu
+                            thủ
+                            Australia để bóng chạm tay ở vòng loại World Cup 2022 tối 7/9.
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-3">
+                    <h6>Nỗ lực điều trị 3.052 trẻ mắc Covid-19 tại TP HCM</h6>
+                    <div class="row m-0">
+                        <div class="col-md-5 p-0 pt-2">
+                            <img src="https://i1-suckhoe.vnecdn.net/2021/09/07/f0-tre-em-tp-hcm-dieu-tri-ra-s-1437-6271-1630948643.jpg?w=220&h=132&q=100&dpr=1&fit=crop&s=TUzLaBLUJBbq9TqbiTaJQw"
+                                alt="">
+                        </div>
+                        <div class="col-md-7">
+                            Thiếu niên gần 16 tuổi, nặng 135 kg được chuyển khẩn cấp đến Bệnh viện Nhi đồng Thành phố -
+                            một trong hai bệnh viện điều trị chuyên sâu, khi mắc Covid-19 ở ngày thứ 5.
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-3">
+                    <h6>Dựng cửa sắt chốt chặn 'vùng xanh'</h6>
+                    <div class="row m-0">
+                        <div class="col-md-5 p-0 pt-2">
+                            <img src="https://i1-vnexpress.vnecdn.net/2021/09/07/at3-1630999057-7541-1630999066.jpg?w=220&h=132&q=100&dpr=1&fit=crop&s=Pr0-AblDxK2fJRdvIOAvSw"
+                                alt="">
+                        </div>
+                        <div class="col-md-7">
+                            HÀ NỘI - Hàng chục cánh cửa được người dân và chính quyền xã Tứ Hiệp, huyện Thanh Trì lắp
+                            đặt, nhằm kiểm soát người ra vào khu vực vùng xanh.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="main_news_right col-12 col-sm-6 col-lg-7-5">
+                <!-- covid -->
+                <div class="covid border-bottom">
+                    <div class="border">
+                        <div class="row m-0 p-3 border-bottom">
+                            <div class="csnb font-weight-bold">Chăm sóc người bệnh</div>
+                            <div class="covid_btn mr-3">Dành cho F0</div>
+                            <div class="covid_btn mr-3">Hotline TP HCM</div>
+                            <div class="gachdung_full"></div>
+                            <div class="covid_btn ml-3 mr-3">Bệnh thông thường</div>
+                            <div class="covid_btn">Hỏi đáp</div>
+                        </div>
+                        <div class="p-3 bg-light">
+                            <div class="row m-0 justify-content-between align-items-baseline">
+                                <h5>Covid-19 tại Việt Nam</h5>
+                                <span class="text-primary font-weight-bold"> Với 380.000 đồng, bạn có thể cứu một
+                                    F0</span>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-lg-6 pt-3">
+                                    <table class="table1 w-100">
+                                        <tr>
+                                            <th style="width: 30%;"></th>
+                                            <th>Hôm nay</th>
+                                            <th>Tổng</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Nhiễm</td>
+                                            <td class="text-danger">
+                                                <h4>14.025</h4>
+                                            </td>
+                                            <td class="text-danger">
+                                                <h4>546.435</h4>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Khỏi</td>
+                                            <td class="text-success">
+                                                <h4>10.292</h4>
+                                            </td>
+                                            <td class="text-success">
+                                                <h4>311.254</h4>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tử vong</td>
+                                            <td>316</td>
+                                            <td>13.701</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-12 col-lg-6 pt-3">
+                                    <table class="table1 w-100">
+                                        <tr>
+                                            <th style="width: 40%;">Tỉnh</th>
+                                            <th>Hôm nay</th>
+                                            <th>Tổng nhiễm</th>
+                                        </tr>
+                                    </table>
+                                    <div class="table_covid_tinh">
+                                        <table class="w-100">
+                                            <tr>
+                                                <td style="width: 40%;">TP HCM</td>
+                                                <td>+1.432</td>
+                                                <td>14.435</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Tiền Giang</td>
+                                                <td>+92</td>
+                                                <td>954</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Long An</td>
+                                                <td>+92</td>
+                                                <td>865</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Tây Ninh</td>
+                                                <td>+82</td>
+                                                <td>658</td>
+                                            </tr>
+                                            <tr>
+                                                <td>An Giang</td>
+                                                <td>+82</td>
+                                                <td>549</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Đồng Nai</td>
+                                                <td>+82</td>
+                                                <td>241</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Đồng Nai</td>
+                                                <td>+82</td>
+                                                <td>241</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Đồng Nai</td>
+                                                <td>+82</td>
+                                                <td>241</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Đồng Nai</td>
+                                                <td>+82</td>
+                                                <td>241</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="covid_footer row m-sm-0 p-3 justify-content-between">
+                        <span>* Ca nhiễm cộng đồng từ 27/4. Cập nhật: 18:28, 7/9</span>
+                        <div>
+                            <a href="#">Tin tức Covid-19</a>
+                            <a class="ml-2" href="#">Xem thêm</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Kinh doanh -->
+                <div class="kinhdoanh">
+                    <ul class="category row m-0 pt-3">
+                        <li class="main_cate"><a href="https://vnexpress.net/kinh-doanh">Kinh doanh</a></li>
+                        <li><a href="https://vnexpress.net/kinh-doanh/quoc-te">Quốc tế</a></li>
+                        <li><a href="https://vnexpress.net/kinh-doanh/doanh-nghiep">Doanh nghiệp</a></li>
+                        <li><a href="https://vnexpress.net/kinh-doanh/chung-khoan">Chứng khoán</a></li>
+                        <li><a href="https://vnexpress.net/kinh-doanh/bat-dong-san">Bất động sản</a></li>
+                        <li><a href="https://vnexpress.net/kinh-doanh/bao-hiem">Bảo hiểm</a></li>
+                        <li><a href="https://vnexpress.net/kinh-doanh/e-commerce-40">E-Commerce 4.0</a></li>
+                    </ul>
+                    <div class="kinhdoanh_news row pt-2">
+                        <div class="row m-0 col-12 col-lg-8">
+                            <div class="news1-image col-6 p-0">
+                                <img src="https://i1-kinhdoanh.vnecdn.net/2021/07/16/185132626-920215835446652-2483-4984-3149-1626412711.jpg?w=380&h=228&q=100&dpr=1&fit=crop&s=cZxRtwHxFGa2R2j2F8kzIg"
+                                    alt="">
+                            </div>
+                            <div class="news1-content col-6">
+                                <h6 class="tittle-news">Vì sao giá heo hơi giảm mạnh, thịt tại chợ TP HCM vẫn cao
+                                </h6>
+                                <p>Nhiều lò mổ ở TP HCM ngưng, chi phí vận chuyển, vận hành cao nên giá thịt bán lẻ
+                                    tại
+                                    chợ vẫn trên dưới 200.000</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-4">
+                            <h6 class="tittle-news">Dân Sài Gòn lại gom hàng khi nhiều nơi bị phong tỏa</h6>
+                            <p>Sáng nay người dân TP HCM lại đổ đến siêu thị mua thực phẩm dự trữ khiến nhiều nơi
+                                thiếu
+                                hàng cục bộ ...</p>
+                        </div>
+                    </div>
+                    <ul class="kinhdoanh_listnews row m-0">
+                        <li class="col-lg-4"><a
+                                href="https://vnexpress.net/chung-khoan-chot-phien-giam-50-diem-4308095-tong-thuat.html">Chứng
+                                khoán chốt phiên giảm 50 điểm</a></li>
+                        <li class="col-lg-4"><a
+                                href="https://vnexpress.net/tieu-thu-vai-thieu-bac-giang-nam-nay-co-gi-khac-truoc-4307878.html">Tiêu
+                                thụ vải thiều Bắc Giang năm nay có gì khác trước?</a></li>
+                        <li class="col-lg-4"><a
+                                href="https://vnexpress.net/16-ngan-hang-dong-thuan-giam-lai-vay-cho-doanh-nghiep-4308436.html">16
+                                ngân hàng đồng thuận giảm lãi vay cho doanh nghiệp</a></li>
+                    </ul>
+                </div>
+                <!-- end kinh doanh -->
+            </div>
+        </div>
+        <!-- end main news -->
+
+        <!-- video -->
+        <div class="video section">
+            <div class="video_header row m-0 pb-3">
+                <ul class="category row m-0">
+                    <li class="mr-4"><a class="main_cate" href="https://vnexpress.net/kinh-doanh">Video</a> </li>
+                    <li class="mr-4"><a href="https://video.vnexpress.net/thoi-su">Thời sự</a></li>
+                    <li class="mr-4"><a href="https://video.vnexpress.net/nhip-song">Nhịp sống</a></li>
+                    <li class="mr-4"><a href="https://video.vnexpress.net/food">Food</a></li>
+                    <li class="mr-4"><a href="https://video.vnexpress.net/cuoc-song-4-0">Cuộc sống 4.0</a></li>
+                    <li class="mr-4"><a href="https://video.vnexpress.net/toi-ke">Tôi kể</a></li>
+                    <li class="mr-4"><a href="https://video.vnexpress.net/chuyen-nui-rung">Chuyện núi rừng</a></li>
+                    <li class="mr-4"><a href="https://video.vnexpress.net/topic/nguy-co-24988">Nguy-Cơ</a></li>
+                </ul>
+                <a class="video_youtube row m-0" href="#">
+                    <span class="mr-2">Theo dõi trên</span>
+                    <div>
+                        <i class="fab fa-youtube text-danger"></i>
+                        <b>YouTube</b>
+                    </div>
+                </a>
+            </div>
+            <div class="video_body row">
+                <div class="video_main col-sm-8">
+                    <iframe class="top_video" src="https://www.youtube.com/embed/PIxfWr2cS2w"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <div class="pt-2"><a href="#">
+                            <h4> Đội nắng xếp hàng dài mua thực phẩm </h4>
+                        </a></div>
+                </div>
+                <ul class="list_video col-sm-4">
+                    <li class="subvideo d-flex border-bottom pb-3">
+                        <div class="subvideo_thumbnail col-4 p-0">
+                            <img src="./assets/images/video1.PNG" alt="image">
+                        </div>
+                        <div class="subvideo_content col-8">
+                            <a href="#">Đội nắng xếp hàng dài mua thực phẩm
+                            </a><br>
+                            <span>1h trước</span> <span>Thời sự</span>
+                        </div>
+                    </li>
+                    <li class="subvideo d-flex border-bottom pb-3 pt-3">
+                        <div class="subvideo_thumbnail col-4 p-0">
+                            <img src="./assets/images/video2.PNG" alt="image">
+                        </div>
+                        <div class="subvideo_content col-8">
+                            <a href="#">Kiếm tiền từ tour du lịch online cho khách Tây</a><br>
+                            <span>Nhịp sống</span>
+                            <span class="comment">
+                                <i class="fas fa-comment-alt"></i>
+                                <span class="count-cmt">14</span>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="subvideo d-flex border-bottom pb-3 pt-3">
+                        <div class="subvideo_thumbnail col-4 p-0">
+                            <img src="./assets/images/video3.PNG" alt="image">
+                        </div>
+                        <div class="subvideo_content col-8">
+                            <a href="#">Góp nông sản gửi tặng người dân Sài Gòn</a>
+                        </div>
+                    </li>
+                    <li class="subvideo d-flex border-bottom pb-3 pt-3">
+                        <div class="subvideo_thumbnail col-4 p-0">
+                            <img src="./assets/images/video4.PNG" alt="image">
+                        </div>
+                        <div class="subvideo_content col-8">
+                            <a href="#"> Hàng nghìn khẩu trang 3M giả bị thu giữ</a>
+                        </div>
+                    </li>
+                    <li class="subvideo d-flex border-bottom pb-3 pt-3">
+                        <div class="subvideo_thumbnail col-4 p-0">
+                            <img src="./assets/images/video5.PNG" alt="image">
+                        </div>
+                        <div class="subvideo_content col-8">
+                            <a href="#"> Cơm di động cho người nghèo trong giãn cách</a>
+                        </div>
+                    </li>
+                    <li class="subvideo d-flex border-bottom pb-3 pt-3">
+                        <div class="subvideo_thumbnail col-4 p-0">
+                            <img src="./assets/images/video5.PNG" alt="image">
+                        </div>
+                        <div class="subvideo_content col-8">
+                            <a href="#"> Cơm di động cho người nghèo trong giãn cách</a>
+                        </div>
+                    </li>
+                    <li class="subvideo d-flex pb-3 pt-3">
+                        <div class="subvideo_thumbnail col-4 p-0">
+                            <img src="./assets/images/video5.PNG" alt="image">
+                        </div>
+                        <div class="subvideo_content col-8">
+                            <a href="#"> Cơm di động cho người nghèo trong giãn cách</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- end video -->
+
+        <!-- du lịch -->
+        <div class="dulich section border-top">
+            <ul class="category row m-0 pb-3">
+                <li><a class="main_cate mr-4" href="https://vnexpress.net/du-lich">Du lịch </a></li>
+                <li class="mr-4"><a href="https://vnexpress.net/du-lich/dau-chan">Dấu chân</a></li>
+                <li class="mr-4"><a href="https://vnexpress.net/du-lich/tu-van">Tư vấn</a></li>
+                <li class="mr-4"><a href="https://vnexpress.net/du-lich/safe-go">Safe Go</a></li>
+                <li class="mr-4"><a href="https://vnexpress.net/du-lich/diem-den">Điểm đến</a></li>
+                <li class="mr-4"><a href="https://vnexpress.net/du-lich/anh-video">Ảnh</a></li>
+                <li><a href="https://vnexpress.net/du-lich/an-va-choi">Ăn và chơi</a></li>
+            </ul>
+            <div class="row border-bottom">
+                <div class="border-right col-lg-5">
+                    <div>
+                        <a href="#">
+                            <img class="c1-picture"
+                                src="https://i1-dulich.vnecdn.net/2021/07/03/2911d-1625126505-1625126517-7416-1625294907.jpg?w=500&h=300&q=100&dpr=1&fit=crop&s=nQcCexCuiZ8GDoC7rimg0A"
+                                alt="image">
+                        </a>
+                    </div>
+                    <a href="https://vnexpress.net/quoc-gia-nao-khong-co-den-giao-thong-4302807.html">
+                        <h4 class="tittle-news">Quốc gia nào không có đèn giao thông?</h4>
+                        <p>Là quốc gia yên bình nổi tiếng thế giới và thu hút rất đông khách đến du lịch tâm linh hàng
+                            năm
+                            nhưng nơi này không dùng đèn giao thông. </p>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-3 border-right">
+                    <div class="border-bottom">
+                        <img src="https://i1-dulich.vnecdn.net/2021/07/14/banhday3-1626245223-1626245234-4244-1626245855.jpg?w=380&h=228&q=100&dpr=1&fit=crop&s=OLUzQj_t9KNYE2iNpC8YyQ"
+                            alt="">
+                        <h6>Bánh dày chỉ ăn trong ngày của làng Thượng Đình</h6>
+                    </div>
+                    <div class="pt-3">
+                        <img src="https://i1-dulich.vnecdn.net/2021/07/13/4-1626166754-5880-1626166828.jpg?w=380&h=228&q=100&dpr=1&fit=crop&s=4iBudiaqiTPGpoSAiyRjDA"
+                            alt="">
+                        <h6>Maldives của những năm 1970</h6>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 section">
+                    <a class="row border-bottom mb-3 pb-3"
+                        href="https://vnexpress.net/lao-nong-dong-nai-4-lan-di-xuyen-viet-4308677.html">
+                        <h6 class="col-7">'Lão nông' Đồng Nai 4 lần đi xuyên Việt</h6>
+                        <div class="col-5">
+                            <img
+                                src="https://i1-dulich.vnecdn.net/2021/07/13/trung-1626193058-1626193080-2160-1626193095.jpg?w=120&h=72&q=100&dpr=1&fit=crop&s=AdV26ZcWd32yDvJv4In7rw">
+                        </div>
+                    </a>
+                    <a class="row border-bottom mb-3 pb-3"
+                        href="https://vnexpress.net/phu-quoc-tiem-vaccine-cho-60-000-nguoi-lam-du-lich-dich-vu-4309560.html">
+                        <h6 class="col-7">Phú Quốc tiêm vaccine cho 60.000 người làm du lịch, dịch vụ</h6>
+                        <div class="col-5">
+                            <img src="https://i1-dulich.vnecdn.net/2021/07/14/z2173754210767d1e4b6cbdd7241e6-6985-3727-1626263678.jpg?w=120&h=72&q=100&dpr=1&fit=crop&s=II99IJowreZsA3PJOGgtXA"
+                                alt="">
+                        </div>
+                    </a>
+                    <a class="row border-bottom mb-3 pb-3"
+                        href="https://vnexpress.net/ho-nuoc-nhu-da-lat-thu-nho-giua-quang-ninh-4308903.html">
+                        <h6 class="col-7">Hồ nước như Đà Lạt thu nhỏ giữa Quảng Ninh</h6>
+                        <div class="col-5">
+                            <img src="https://i1-dulich.vnecdn.net/2021/07/13/hoyentrung1-1626169182-1626169-9501-8787-1626169364.jpg?w=120&h=72&q=100&dpr=1&fit=crop&s=5XFa33_sxfkgKJ9dZkKs-A"
+                                alt="">
+                        </div>
+                    </a>
+                    <a class="row"
+                        href="https://vnexpress.net/mon-banh-ngot-lam-kho-ca-dau-bep-chuyen-nghiep-4308985.html">
+                        <h6 class="col-7">Món bánh ngọt làm khó cả đầu bếp chuyên nghiệp</h6>
+                        <div class="col-5">
+                            <img src="https://i1-dulich.vnecdn.net/2021/07/13/thumbbanhnganlopmalaysia02-162-5935-4348-1626173618.jpg?w=120&h=72&q=100&dpr=1&fit=crop&s=Xtjlx3T5EmqwgTpCdpLoKg"
+                                alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- end du lịch -->
+
+        <!-- Ảnh -->
+        <div class="anh section border-bottom">
+            <h2 class="main_cate" style="width: 40px;">
+                Ảnh
+            </h2>
+            <div class="anh_body row m-lg-0">
+                <div class="anh_left col-12 col-lg-8 p-0">
+                    <div class="anh_img">
+                        <img src="./assets/images/Anh/Ha Noi do than nhiet.jpg" alt="img">
+                    </div>
+                    <div class="anh_img">
+                        <img src="./assets/images/Anh/TPHCM xep hang.jpg" alt="img">
+                    </div>
+                    <div class="anh_img">
+                        <img src="./assets/images/Anh/Dac cong bieu dien.jpg" alt="img">
+                    </div>
+                    <div class="anh_img">
+                        <img src="./assets/images/Anh/ha noi dung 30 chot.jpg" alt="img">
+                    </div>
+
+                    <button class="anh_btn anh_btn_up">
+                        <i class="fas fa-chevron-up text-white"></i>
+                    </button>
+                    <button class="anh_btn anh_btn_down">
+                        <i class="fas fa-chevron-down text-white"></i>
+                    </button>
+                </div>
+
+                <div class="anh_right text-white col-12 col-lg-4 p-0">
+                    <!-- top -->
+                    <div class="list_anh_top">
+                        <div class="anh_right_top">
+                            <a
+                                href="https://vnexpress.net/do-than-nhiet-xet-nghiem-nhanh-nguoi-dan-vao-ha-noi-4309213.html">
+                                <div class="anh-content">
+                                    <h6>Đo thân nhiệt, xét nghiệm nhanh người dân vào Hà Nội</h6>
+                                    <p>Phương tiện vào Hà Nội qua 22 chốt ở cửa ngõ được kiểm soát chặt chẽ; lực lượng
+                                        chức
+                                        năng
+                                        đo thân nhiệt người dân, xét nghiệm nhanh tài xế đến từ vùng có dịch.</p>
+                                    <span>Thời sự</span>
+                                    <span class="comment">
+                                        <i class="fas fa-comment-alt"></i>
+                                        <span class="count-cmt">14</span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="anh_right_top">
+                            <a href="https://vnexpress.net/nguoi-dan-tp-hcm-xep-hang-dai-mua-hang-4309365.html">
+                                <div class="anh-content">
+                                    <h6>Người dân TP HCM xếp hàng dài mua hàng</h6>
+                                    <p>Nhiều người đợi hàng giờ mua thực phẩm, thuốc men sáng 14/7. Chính quyền TP HCM
+                                        bác
+                                        thông
+                                        tin đóng cửa toàn thành phố, kêu gọi người dân bình tĩnh.</p>
+                                    <span>Thời sự</span>
+                                    <span class="comment">
+                                        <i class="fas fa-comment-alt"></i>
+                                        <span class="count-cmt">14</span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="anh_right_top">
+                            <a
+                                href="https://vnexpress.net/do-than-nhiet-xet-nghiem-nhanh-nguoi-dan-vao-ha-noi-4309213.html">
+                                <div class="anh-content">
+                                    <h6>500 chiến sĩ đặc công biểu diễn võ thuật</h6>
+                                    <p>500 chiến sĩ đặc công đồng diễn võ thuật, múa côn nhị khúc, biểu diễn khí công...
+                                        trong
+                                        lễ bế mạc Army Games 2021 ở Việt Nam, sáng 4/9.</p>
+                                    <span>Thời sự</span>
+                                    <span class="comment">
+                                        <i class="fas fa-comment-alt"></i>
+                                        <span class="count-cmt">14</span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="anh_right_top">
+                            <a
+                                href="https://vnexpress.net/do-than-nhiet-xet-nghiem-nhanh-nguoi-dan-vao-ha-noi-4309213.html">
+                                <div class="anh-content">
+                                    <h6>Hà Nội dựng 30 chốt cứng cấm người vào vùng dịch</h6>
+                                    <p>TP Hà Nội cho dựng 30 chốt cứng tại các cầu, khu vực tiếp giáp với vùng xanh
+                                        (không
+                                        có dịch) để cấm người dân qua lại.</p>
+                                    <span>Thời sự</span>
+                                    <span class="comment">
+                                        <i class="fas fa-comment-alt"></i>
+                                        <span class="count-cmt">14</span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- bot -->
+                    <div class="list_anh_bot d-none d-lg-block">
+                        <div class="anh_right_bot">
+                            <div class="anh-content">
+                                <h6>Đo thân nhiệt, xét nghiệm nhanh người dân vào Hà Nội</h6>
+                                <p>Phương tiện vào Hà Nội qua 22 chốt ở cửa ngõ được kiểm soát chặt chẽ; lực lượng chức
+                                    năng
+                                    đo thân nhiệt người dân, xét nghiệm nhanh tài xế đến từ vùng có dịch.</p>
+                                <span>Thời sự</span>
+                                <span class="comment">
+                                    <i class="fas fa-comment-alt"></i>
+                                    <span class="count-cmt">14</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="anh_right_bot">
+                            <div class="anh-content">
+                                <h6>Người dân TP HCM xếp hàng dài mua hàng</h6>
+                                <p>Nhiều người đợi hàng giờ mua thực phẩm, thuốc men sáng 14/7. Chính quyền TP HCM bác
+                                    thông
+                                    tin đóng cửa toàn thành phố, kêu gọi người dân bình tĩnh.</p>
+                                <span>Thời sự</span>
+                                <span class="comment">
+                                    <i class="fas fa-comment-alt"></i>
+                                    <span class="count-cmt">14</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="anh_right_bot">
+                            <div class="anh-content">
+                                <h6>500 chiến sĩ đặc công biểu diễn võ thuật</h6>
+                                <p>500 chiến sĩ đặc công đồng diễn võ thuật, múa côn nhị khúc, biểu diễn khí công...
+                                    trong
+                                    lễ bế mạc Army Games 2021 ở Việt Nam, sáng 4/9.</p>
+                                <span>Thời sự</span>
+                                <span class="comment">
+                                    <i class="fas fa-comment-alt"></i>
+                                    <span class="count-cmt">14</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="anh_right_bot">
+                            <div class="anh-content">
+                                <h6>Hà Nội dựng 30 chốt cứng cấm người vào vùng dịch</h6>
+                                <p>TP Hà Nội cho dựng 30 chốt cứng tại các cầu, khu vực tiếp giáp với vùng xanh
+                                    (không
+                                    có dịch) để cấm người dân qua lại.</p>
+                                <span>Thời sự</span>
+                                <span class="comment">
+                                    <i class="fas fa-comment-alt"></i>
+                                    <span class="count-cmt">14</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end  Ảnh -->
+
+        <!-- Thông tin doanh nghiệp -->
+        <div class="ttdn section border-bottom">
+            <div class="d-flex justify-content-between pb-2">
+                <div class="main_cate">Thông tin doanh nghiệp</div>
+                <div>
+                    <button class="border-0 bg-transparent"><i class="fas fa-chevron-left"></i></button>
+                    <button class="border-0 bg-transparent"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+            <div class="row">
+                <a class="ttdn_news col-12 col-sm-6 col-lg-3"
+                    href="https://vnexpress.net/bao-mat-thong-tin-cho-doanh-nghiep-khi-lam-viec-tu-xa-trong-covid-19-4308301.html">
+                    <div>
+                        <img src="https://i1-kinhdoanh.vnecdn.net/2021/07/14/725-1626076335-8351-1626227475.png?w=300&h=180&q=100&dpr=1&fit=crop&s=MoLEN9Ui8IADLrrTfvI-eg"
+                            alt="">
+                    </div>
+                    <p class="pt-2">Bảo mật thông tin cho doanh nghiệp khi làm việc từ xa trong Covid-19
+                    </p>
+                </a>
+                <a class="ttdn_news col-12 col-sm-6 col-lg-3"
+                    href="https://vnexpress.net/oppo-reno6-z-ca-nhan-hoa-trai-nghiem-nhiep-anh-chan-dung-4308431.html">
+                    <div>
+                        <img src="https://i1-sohoa.vnecdn.net/2021/07/13/12-7-202155-484617380-2307-162-5844-4448-1626162537.png?w=300&h=180&q=100&dpr=1&fit=crop&s=IM5Ki4JZ6-exr2euACqnAQ"
+                            alt="">
+                    </div>
+
+                    <p class="pt-2">Oppo Reno6 Z cá nhân hóa trải nghiệm nhiếp ảnh chân dung
+                    </p>
+                </a>
+                <a class="ttdn_news col-12 col-sm-6 col-lg-3"
+                    href="https://vnexpress.net/cac-du-an-cua-dat-xanh-mien-trung-chuan-bi-ban-giao-4308244.html">
+                    <div>
+                        <img src="https://i1-kinhdoanh.vnecdn.net/2021/07/12/image002-1626075331.jpg?w=300&h=180&q=100&dpr=1&fit=crop&s=wnHIl2CDukO1ppfqzNbf6A"
+                            alt="">
+                    </div>
+
+                    <p class="pt-2">Các dự án của Đất Xanh Miền Trung chuẩn bị bàn giao
+                    </p>
+                </a>
+                <a class="ttdn_news col-12 col-sm-6 col-lg-3"
+                    href="https://vnexpress.net/loi-the-dau-tu-tai-shop-thuong-mai-korea-park-4308094.html">
+                    <div>
+                        <img src="https://i1-kinhdoanh.vnecdn.net/2021/07/12/dc953bab-f191-465b-614e-adc7dd-6045-3171-1626078333.jpg?w=300&h=180&q=100&dpr=1&fit=crop&s=82aRC3DshIS58Qzj5MjgEQ"
+                            alt="">
+                    </div>
+
+                    <p class="pt-2">Lợi thế đầu tư tại shop thương mại Korea Park
+                    </p>
+                </a>
+            </div>
+            <div class="ttdn_shop row d-none d-lg-flex">
+                <div class="col-3 ">
+                    <a href="#">
+                        <img src="./assets/images/shopexpress.png" alt="">
+                    </a>
+                </div>
+                <div class="shop_list_product row flex-wrap-reverse col-9 p-0">
+                    <a class="shop_product col border" href="#">
+                        <img src="./assets/images/ghe-an.jpg" alt="">
+                        <span class="product_name">Bộ hai ghế bàn ăn bọc da simili, ghế tựa da cao cấp chống nhăn, chống
+                            rách - gc09 - Kem
+                        </span>
+                        <div class="col pt-2 text-center">
+                            <div class="sale_price">115.000đ</div>
+                            <div>179.000đ</div>
+                        </div>
+                        <span class="product_sale">-25%</span>
+                    </a>
+                    <a class="shop_product col border" href="#">
+                        <img src="https://i-shop.vnecdn.net/resize/560/560/images/2019/08/24/5d60f5e046cad-2.jpg"
+                            alt="">
+                        <span class="product_name">Móc treo quần áo 5 chấu Inox 304 zento HB1120-5 - Xám nhạt
+                        </span>
+                        <div class="col pt-2 text-center">
+                            <div class="sale_price">115.000đ</div>
+                            <div>179.000đ</div>
+                        </div>
+                        <span class="product_sale">-25%</span>
+                    </a>
+                    <a class="shop_product col border" href="#">
+                        <img src="https://i-shop.vnecdn.net/resize/560/560/images/2021/06/12/60c43798c0bb8-d31cc63d53ce3c4faedad052b4bbe54e.jpg"
+                            alt="">
+                        <span class="product_name">Máy lau nhà hơi nước đa năng Ariete MOD 4164 - Trắng
+                        </span>
+                        <div class="col pt-2 text-center">
+                            <div class="sale_price">1.390.000đ</div>
+                            <div>2.590.000đ</div>
+                        </div>
+                        <span class="product_sale">-46%</span>
+                    </a>
+                    <a class="shop_product col border" href="#">
+                        <img src="https://i-shop.vnecdn.net/resize/560/560/images/2020/05/07/5eb3c5431c426-Thi-t-k-kh-ng-t-n-38-.png"
+                            alt="">
+                        <span class="product_name">Máy lọc không khí trên ô tô model KGAP1 - Trắng
+                        </span>
+                        <div class="col pt-2 text-center">
+                            <div class="sale_price">450.000đ</div>
+                            <div>786.000đ</div>
+                        </div>
+                        <span class="product_sale">-25%</span>
+                    </a>
+                    <a class="shop_product col border" href="#">
+                        <img class="shop_product_image"
+                            src="https://i-shop.vnecdn.net/resize/560/560/images/2020/10/06/5f7bcdb611c28-H5e31ce5981f24600a086d998b437fc5aN.jpg"
+                            alt="">
+                        <span class="product_name">Robot hút bụi lau nhà MAMIBOT EXVAC880 USA - Trắng
+                        </span>
+                        <div class="col pt-2 text-center">
+                            <div class="sale_price">6.950.000đ</div>
+                            <div>7.500.000đ</div>
+                        </div>
+                        <span class="product_sale">-7%</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <!-- end Thông tin doanh nghiệp -->
+
+        <!-- menu bot -->
+        <div class="menu_bot section row border-bottom">
+            <div class="col font-weight-bold">
+                <div class="border-bottom">
+                    <ul>
+                        <li>Trang chủ</li>
+                        <li>Video</li>
+                        <li>Ảnh</li>
+                        <li>Infographics</li>
+                    </ul>
+                </div>
+                <div class="pt-2">
+                    <ul>
+                        <li>Mới nhất</li>
+                        <li>Xem nhiều</li>
+                        <li>Tin nóng</li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="col">
+                <li>Thời sự</li>
+                <li>Góc nhìn</li>
+                <li>Thế giới</li>
+                <li>Kinh doanh</li>
+                <li>Giải trí</li>
+            </ul>
+            <ul class="col">
+                <li>Thể thao</li>
+                <li>Pháp luật</li>
+                <li>Giáo dục</li>
+                <li>Sức khỏe</li>
+                <li>Đời sống</li>
+                <li>Du lịch</li>
+            </ul>
+            <ul class="col">
+                <li>Khoa học</li>
+                <li>Số hóa</li>
+                <li>Xe</li>
+                <li>Ý kiến</li>
+                <li>Tâm sự</li>
+                <li>Hài</li>
+            </ul>
+
+            <ul class="col border-left border-right">
+                <li>Rao vặt</li>
+                <li>Shop VnExpress</li>
+                <li>Startup</li>
+                <li>Mua ảnh VnExpress</li>
+                <li>Vhome</li>
+                <li>eBox</li>
+            </ul>
+            <div class="col">
+                <div class="border-bottom">
+                    <div>Tải ứng dụng</div>
+                    <div class="d-flex justify-content-between pt-1 pb-2">
+                        <a class="international_btn button mr-2 d-flex" href="#">
+                            <i class="logoVNE mr-1"></i>
+                            VnExpress
+                        </a>
+                        <a class="international_btn button d-flex" href="#">
+                            <i class="logoVNE mr-1"></i>
+                            International
+                        </a>
+                    </div>
+                    <div class="lienhe">
+                        <span>Liên hệ</span><br>
+                        <div class="d-flex justify-content-between pt-1 pb-2">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-envelope mr-2"></i>
+                                <a href="#"> Tòa soạn </a>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-ad mr-2"></i>
+                                <a href="#"> Quảng cáo </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-2">
+                    <div>Đường dây nóng</div>
+                    <div class="row pt-1">
+                        <div class="col-6">
+                            <h6>083.888.0123</h6>
+                            <span class="small">(Hà Nội)</span>
+                        </div>
+                        <div class="col-6">
+                            <h6>082.233.3555</h6>
+                            <span class="small">(TP. Hồ Chí Minh)</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- end thông tin doanh nghiệp -->
+
+        <!-- footer -->
+        <footer class="footer section">
+            <div class="d-flex justify-content-between pb-3">
+                <div class="">
+                    <a class="header_logoVNE pr-3" href="#">
+                        <img src="https://s1.vnecdn.net/vnexpress/restruct/i/v403/v2_2019/pc/graphics/logo.svg"
+                            alt="logo">
+                    </a>
+                </div>
+                <div class="row m-0 d-flex align-items-center">
+                    <div class="">
+                        <a href="https://vnexpress.net/rss"><span>RSS</span></a>
+                    </div>
+                    <div class="gach_dung mr-2 ml-2"></div>
+                    <div class="footer-theodoi">Theo dõi VnExpress trên</div>
+                    <div class="footer_icon d-flex">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between m-0">
+                <div>
+                    <div><b>Báo tiếng Việt nhiều người xem nhất </b></div>
+                    <div>Thuộc Bộ Khoa học Công nghệ </div>
+                    <div>Số giấy phép: 06/GP-BTTTT ngày 03/01/2014 </div>
+                </div>
+                <div>
+                    <div>Tổng biên tập: Phạm Hiếu </div>
+                    <div>Địa chỉ: Tầng 5, Tòa nhà FPT, 17 phố Duy Tân, Cầu Giấy, Hà Nội </div>
+                    <div>Điện thoại: 024 7300 8899 - máy lẻ 4500 </div>
+                </div>
+                <div>© 1997-2021. Toàn bộ bản quyền thuộc VnExpress</div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+@media (min-width: 576px) {
+   
+}
+
+@media (min-width: 768px) {
+  .col-md-4-5 {
+    -ms-flex: 0 0 37.5%;
+    flex: 0 0 37.5%;
+    max-width: 37.5%;
+  }
+  .col-md-7-5 {
+    -ms-flex: 0 0 62.5%;
+    flex: 0 0 62.5%;
+    max-width: 62.5%;
+  }
+  
+}
+
+@media (min-width: 992px) {
+  .col-lg-4-5 {
+    -ms-flex: 0 0 37.5%;
+    flex: 0 0 37.5%;
+    max-width: 37.5%;
+  }
+  .col-lg-7-5 {
+    -ms-flex: 0 0 62.5%;
+    flex: 0 0 62.5%;
+    max-width: 62.5%;
+  }
+  .list_anh_top,
+  .list_anh_bot{
+    height: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+   
+}
+  
+@media (min-width: 1400px) {
+
+}
+
+.col-md-4-5, .col-lg-4-5,
+.col-md-7-5, .col-lg-7-5{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}

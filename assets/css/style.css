@@ -1,0 +1,390 @@
+/* base */
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    color: #222;
+    font: 400 14px arial;
+    line-height: 1.4;
+    min-height: 100vh;
+    /* overflow-x: hidden; */
+    overflow-y: scroll;
+    max-width: 100%;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+ol, ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+i{
+    color: grey;
+}
+.section{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/* end base */
+
+
+#to_top{
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    border: 1px solid #e5e5e5;
+    padding: 10px 12px;
+    z-index: 1000;
+    background-color: #ccc;
+}
+.button{
+    border: 1px solid #e5e5e5;
+    padding: 6px 8px;
+    border-radius: 4px;
+}
+.button:hover{
+    background-color: #f7f7f7;
+}
+
+/* header */
+.header{
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0;
+}
+.header_logoVNE{
+    display: inline-block;
+    width: 150px;
+    padding: 4px 0;
+}
+.header_time{
+    border-left: 1px solid #e5e5e5;
+}
+.header_right{
+    align-items: center;
+}
+.gach_dung{
+    width: 1px;
+    height: 20px;
+    border-right: 1px solid #e5e5e5
+}
+.logoVNE{
+    width: 14px;
+    height: 16px;
+    background-size: cover;
+    background-repeat: none;
+    background-image: url(../images/logovnexpress.png);
+}
+.header_search{
+    border: 1px solid #e5e5e5;
+    padding: 4px 12px;
+    border-radius: 20px;
+}
+.search_iput{
+    border: none;
+}
+.user{
+    cursor: pointer;
+}
+.user img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.notification{
+    border: none;
+    background: none;
+}
+/* end header */
+
+/* navbar */
+.navbar_section{
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 6px 0;
+    z-index: 999;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: white;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1340px;
+    margin: 0 auto;
+    
+}
+.navbar > li{
+    font-weight: bold;
+}
+.sub_nav{
+    display: none;
+    width: 190px;
+    background-color: white;
+    border-top: 1px solid brown ;
+    position: absolute;
+    margin-top: 15px;
+    padding: 10px;
+    line-height: 2;
+    box-shadow: 0 2px 8px #ccc;
+}
+.navbar > li:hover .sub_nav{
+    display: block;
+}
+.menu_all{
+    border: none;
+    background: none;
+}
+/* moadal menu all pc */
+.modal_menu_pc{
+    position: absolute;
+    width: 100%;
+    background-color: #f7f7f7;
+    display: none;
+}
+.menupc_header{
+    border-bottom: 1px solid #ccc;
+}
+.menupc_header h5{
+    color: #4f4f4f;
+}
+.list_menupc li{
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+.list_menupc li:first-child{
+    color: brown;
+    font-size: 17px;
+    font-weight: bold;
+}
+.menu_more{
+    border-top: 1px solid #ccc;
+    width: max-content;
+    padding-right: 20px;
+    font-size: 12px;
+    color: #555;
+}
+.menupc_right{
+    border-left: 1px solid #ccc;
+}
+.menupc_right ul{
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+}
+.menupc_right li{
+    padding-bottom: 8px;
+}
+
+/* top story */
+.top_story_section{
+    border-bottom: 1px solid #e5e5e5;
+}
+.top_news{
+    background-color: #f7f7f7;
+    background-origin: content-box;
+}
+.goc_nhin{
+    border-left: 2px solid #e5e5e5;
+}
+.goc_nhin_title{
+    color: brown;
+    font-weight: bold;
+}
+.author{
+    justify-content: space-between;
+    align-items: center;
+}
+.author_img{
+    width: 56px;
+    height: 56px;
+}
+.author_img img{
+    border-radius: 50%;
+}
+
+/* main new */
+.main_news_left{
+    border-right: 1px solid #e5e5e5;
+}
+.wc2022{
+    border: 1px solid #e5e5e5;
+}
+.flag_vn{
+    width: 20px;
+    height: 15px;
+    overflow: hidden;
+}
+.flag_uas{
+    width: 30px;
+    height: 15px;
+    overflow: hidden;
+}
+.csnb{
+    width: 100px;
+}
+
+/* main new right */
+.covid_btn{
+    background-color: #f7f7f7;
+    padding: 10px;
+}
+.gachdung_full{
+    width: 1px;
+    height: 36px;
+    background-color: grey;
+}
+.table_covid_tinh{
+    height: 100px;
+    overflow: scroll;
+}
+.covid_footer a{
+    text-decoration: underline;
+    color: blue;
+}
+.table1 td, .table1 th{
+    height: 28px;
+}
+
+/* kinh doanh */
+.category{
+    font-size: 14px;
+}
+.category li{
+    margin-right: 8px;
+    line-height: 20px;
+}
+.main_cate{
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid brown;
+}
+.kinhdoanh_listnews{
+    list-style: disc;
+    padding: 0 16px;
+    font-weight: bold;
+}
+
+/* Video */
+.video{
+    background-color: #fcfaf6;
+}
+.video_main{
+    height: max-content;
+}
+.video_header{
+    justify-content: space-between;
+}
+.top_video{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+.list_video{
+    overflow: scroll;
+}
+
+/* Ảnh */
+.anh_img{
+    display: none;
+    overflow: hidden;
+}
+.anh_img img{
+    height: 100%;
+}
+.anh_right_top,
+.anh_right_bot{
+    height: 100%;
+    padding: 16px;
+    display: none;
+    overflow: hidden;
+}
+.anh_btn{
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
+    background-color:#383333 ;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.anh_btn_up{
+    position: absolute;
+    right: 56px;
+    bottom: 16px;
+}
+.anh_btn_down{
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+}
+.anh_btn:hover{
+    background-color: #0080FF;
+}
+.anh_right_top{
+    background-color: #222;
+}
+.anh_right_bot{
+    background-color: #4f4f4f;
+    cursor: pointer;
+}
+
+.menu_bot li{
+    width: max-content;
+    margin-bottom: 8px;
+}
+
+/* Thông tin doanh nghiệp */
+.shop_product:hover{
+    background-size: 100% 100%;
+    background-image: url(../images/background-shop.png);
+}
+.product_name{
+    padding-top: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+.product_sale{
+    position: absolute;
+    top: 8px;
+    left: -8px;
+    background-color: orange;
+    padding: 0 8px;
+    border-radius: 0 10px 10px 0;
+}
+.sale_price{
+    color: orangered;
+    text-decoration: line-through;
+}
+.shop_title{
+    font-weight: bold;
+    font-size: 16px;
+    width: max-content;
+    margin-bottom: 8px;
+}
+
+/* footer */
+.footer_icon i{
+    margin-left: 8px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
