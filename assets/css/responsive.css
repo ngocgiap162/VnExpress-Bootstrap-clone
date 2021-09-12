@@ -1,5 +1,16 @@
 @media (max-width: 575px) {
-
+  .csnb{
+    width: auto;
+  }
+  .covid_btn{
+    min-width: max-content;
+  }
+  .csnb_btn{
+    overflow: scroll;
+  }
+  .wc2022{
+    font-size: 12px;
+  }
 }
 
 @media (min-width: 576px) {
