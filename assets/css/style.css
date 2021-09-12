@@ -289,7 +289,7 @@ i{
 }
 .top_video{
     width: 100%;
-    aspect-ratio: 16/9;
+    aspect-ratio: 14/9;
 }
 .list_video{
     overflow: scroll;
@@ -299,6 +299,7 @@ i{
 .anh_img{
     display: none;
     overflow: hidden;
+    aspect-ratio: 14/9;
 }
 .anh_img img{
     height: 100%;
