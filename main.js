@@ -61,19 +61,19 @@ $('.anh_right_bot').click(function () {
     document.querySelector(".anh_btn_down").click();
 })
 
-
-var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
-var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0)
-var d = $(document).scrollTop();
+// check lỗi tràn nội dung
+// var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
+// var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0)
+// var d = $(document).scrollTop();
  
-$.each($("div"),function(){
-    p = $(this).position();
-    //vertical
-    if (p.top > h + d || p.top > h - d){
-        console.log($(this))
-    }
-    //horizontal
-    if (p.left < 0 - $(this).width() || p.left > w){
-        console.log($(this))
-    }
-});
+// $.each($("div"),function(){
+//     p = $(this).position();
+//     //vertical
+//     if (p.top > h + d || p.top > h - d){
+//         console.log($(this))
+//     }
+//     //horizontal
+//     if (p.left < 0 - $(this).width() || p.left > w){
+//         console.log($(this))
+//     }
+// });

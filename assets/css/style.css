@@ -97,6 +97,7 @@ i{
 }
 .user{
     cursor: pointer;
+    align-items: center;
 }
 .user img{
     width: 25px;
